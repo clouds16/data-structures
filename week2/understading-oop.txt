@@ -1,0 +1,82 @@
+1. Life-critical applications of software -
+	a. transportation software : such as airplanes or metro/train systems.
+	The software in these cases needs to be accurate and take into account many variables
+	to prevent collisions, that may result in deaths.
+
+	One real life example is the high speed metro train in Japan. Since Japan (particularly 
+	big cities like Tokyo) have limited space and rely on public transportation to be quick and 
+	efficient, the system in Japan is so precice that even a 5 mintue delay would be detrimental 
+	to the society. The metro system is not only accurate, but safe to the highest level possible,
+	as with millions of people using the public metro system, they have less than one accident a year.
+
+
+	b. Medical technology software. The software in medical devices must be accurate 
+	and reliable in order to minimize the risk of injuring a patient via direct malfunction, 
+	or misdiagnosis.
+
+	For example: We create a device that must be able to monitor brain activity to check if a patient
+	is having seizures. If our device and program do not work, we may be causing serious and permanent 
+	damage to a patients brain. 
+	Anoter great example is the use of surgical robots. With the advancements in robotics, macihne learning
+	and AI, surgical robots are becoming a more important resource. In the case of the software in a surgical 
+	robot that must perform heart or brain surgery, it would be essential for the robot to not only move precisely
+	to avoid making incisions that would harm or kill a patient, but  must be able to see and detect what 
+	it is looking at in order to find and potentially fix the problem (for example finding and removing a brain tumor.)
+
+	c. Infrastructural software. Software is a main component in designing building, making
+	structural simulations etc. If the software is innacurate or faulty, badly designed or miscalculated 
+	structural loads may lead to catastrophic failure in bridges, skyscrapers, hospitals, roads 
+	which could potentially harm or kill many. 
+
+	One main example of this would be the reliance in the software technologies used to build bridges. 
+	With hundreds of thousands of people using freeway bridges a day, all design parameters and force/load
+	calculations are critical. In design, there is a software commonly used by engineers called FEA - Finite
+	element analysis. This allows the engineer to simulate how their desgin would behave under different conditions
+	including if this bridge was over 3 times the load, or how it would behave in case of a strong earthquake.
+	These simulations allow for the analysis of millions of points in a structure, allowing the engineer to 
+	design for every condition. This software has become a staple of the industry, and is relied on by millions
+	In such a process it is highly important that the software must ALWAYS be precise to avoid the loss of human life. 
+
+
+2. Designing an E-reader:
+	while designing an ereader like a kindle, the Ereader will be the parent class. 
+	class variables for Ereader will be :
+		User Name 
+		emailed 
+		account
+		number of titles (books) owned
+		achievements (number of books completed)
+	methods will include: 
+		purchasing a book
+		adding book to collection
+		keeping track of books owned
+		keeping tracks of achievements earned
+		loading a book once selected
+		book and e reader funtions such as change page, start stop , back to menu
+
+	subclass 1 is books: 
+	individual class variables will be : 
+		author, 
+		title of book, 
+		publication date, 
+		publisher
+		number of pages
+	methods will include: 
+		keeping track of what page number user is on
+		keeping track of completion
+	
+	subclass 2 could be audible book:
+	individual class variables will be : 
+		author, 
+		title of book, 
+		publication date, 
+		publisher
+		name of narrator
+		length (duration) of audio book
+
+	methods will include: 
+		keeping track of what time the user left off at
+		keeping track of completion
+		
+	NOTE: This is just where i put the ideas down, but i made a diagram and a video 
+	to more accureately go over the Ereader problem.

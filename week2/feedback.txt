@@ -1,0 +1,13 @@
+1. I learned how to better design classes and subclasses to better design and encapsulate a
+	class. 
+
+2. I didnt know that you can make a list of objects, or a collection of objects.  While reading 
+the book, i had some confusions, and i watched some additional videos on how to handle and program the 
+logic for adding classes to a list/collection and how to use them more effectively
+
+3. Coming up with a good hierarchy diagram for the e reader was the most dificult 
+
+4. The discussion wasnt too bad this week.
+
+5. I spent about 2 hours reading the materials and watching the videos/taking notes, and another
+hour doing the homework and discussion
