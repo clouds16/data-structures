@@ -1,0 +1,7 @@
+1. this assignment took me about 2 hours to complete.
+2. The easiest problem for me was actually to reverse a list. This was because i 
+solved it by adding one list to another to make a final list.
+[a] + [b] = [a,b]
+3. The hardest problem was to find the min and the max. I think this problem would 
+be easier if it was split up into a function that could find the min and one that 
+can find the max. 
