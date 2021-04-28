@@ -1,0 +1,16 @@
+1. This assignment took me 3-4 hours to complete
+2. The easiest assignment was the queue , i took awhile to figure out how to do the stack, but 
+i used it as reference for the second problem
+
+3. The deque was the hardest problem
+i needed alot of time to figure it out and fix some logic problems i was having with it
+
+
+video links:
+
+https://youtu.be/8pRr56Hnf2w
+
+https://youtu.be/v7aVZ9FIWxM
+
+https://youtu.be/_uZioY8_lAY
+

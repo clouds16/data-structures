@@ -1,53 +1,44 @@
 class Node: 
-      
     def __init__(self, data): 
         self.data = data 
         self.next = None
   
-# A class to represent a queue 
-  
-# The queue, front stores the front node 
-# of LL and rear stores the last node of LL 
+
 class Queue: 
       
     def __init__(self): 
-        self.front = self.rear = None
+        self.top = self.bottom = None
   
     def isEmpty(self): 
-        return self.front == None
-      
-    # Method to add an item to the queue 
+        return self.top == None
+
     def EnQueue(self, item): 
-        temp = Node(item) 
+        newNode = Node(item) 
           
-        if self.rear == None: 
-            self.front = self.rear = temp 
+        if self.bottom == None: 
+            self.top = self.bottom = newNode 
             return
-        self.rear.next = temp 
-        self.rear = temp 
-  
-    # Method to remove an item from queue 
+        self.bottom.next = newNode 
+        self.bottom = newNode 
+ 
     def DeQueue(self): 
           
         if self.isEmpty(): 
             return
-        temp = self.front 
-        self.front = temp.next
+        newNode = self.top 
+        self.top = newNode.next
   
-        if(self.front == None): 
-            self.rear = None
+        if(self.top == None): 
+            self.bottom = None
   
-# Driver Code 
-if __name__== '__main__': 
-    q = Queue() 
-    q.EnQueue(10) 
-    q.EnQueue(20) 
-    q.DeQueue() 
-    q.DeQueue() 
-    q.EnQueue(30) 
-    q.EnQueue(40) 
-    q.EnQueue(50)  
-    q.DeQueue()    
-    print("Queue Front " + str(q.front.data)) 
-    print("Queue Rear " + str(q.rear.data)) 
+
+q = Queue() 
+q.EnQueue(10) 
+q.EnQueue(20) 
+q.EnQueue(30) 
+q.EnQueue(40) 
+q.EnQueue(50)  
+q.DeQueue()    
+print("Queue top " + str(q.top.data)) 
+print("Queue bottom " + str(q.bottom.data)) 
      

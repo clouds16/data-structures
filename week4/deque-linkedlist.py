@@ -78,12 +78,8 @@ d.addFront(2)
 d.addRear(55)
 d.addFront(-33)
 d.addFront(6999)
-d.removeRear()
-
-
-d.showList()
+#d.removeRear()
 d.removeFront()
-time.sleep(2)
-print("########################")
+
 d.showList()
-print(d.isEmpty())
+
