@@ -1,0 +1,6 @@
+1. I completed this assignment in 4 hours. 
+2. I think i had a good grasp on what the classes needed to have to make them functional , 
+and how to work on the binary tree, but writing the code was difficult .
+3. Problem was challenging overall, got a friend to give me some pointers, but overall
+this assignment took the most research and guidance from the book that we have done so far.
+
